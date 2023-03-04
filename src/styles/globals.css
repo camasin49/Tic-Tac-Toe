@@ -2,7 +2,16 @@ html,
 body {
   padding: 0;
   margin: 0;
+  animation: myanimation 5s infinite;
   font-family: "Courier New", Courier, monospace;
+}
+
+@keyframes myanimation {
+  0% {background-color: red;}
+  25%{background-color:yellow;}
+  50%{background-color:green;}
+  75%{background-color:brown;}
+  100% {background-color: red;}
 }
 
 a {

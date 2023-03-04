@@ -112,7 +112,7 @@ export default function Home() {
       </div>
 
       <div className={`modal ${modalTitle ? "show" : ""}`}>
-        <div className="modal__title">{modalTitle}</div>
+        <div className="modal__title awesome">{modalTitle}</div>
         <button onClick={reset}>New Game</button>
       </div>
     </div>
